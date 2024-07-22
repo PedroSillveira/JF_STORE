@@ -7,6 +7,9 @@ import {
   faShoppingCart 
 } from '@fortawesome/free-solid-svg-icons';
 
+import '../App.css';
+import '../components/navbar.css';
+
 export default function Navbar() {
   return (
     <div className="nav">

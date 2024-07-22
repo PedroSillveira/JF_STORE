@@ -3,7 +3,6 @@
     padding: 0;
     margin: 0;
 }
-
 :root {
     --primary-color: #f80;
     --secundary-color: #00498d;
@@ -12,106 +11,18 @@
     --light-color: #e9e9e9;
     --dark-color: #2c2c2c;
 }
-
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: var(--dark-color);
 }
-
+/* LINKS */
 a {
     text-decoration: none;
     color: unset;
 }
+/* BOTÕES */
 button {
     background-color: transparent;
     border: none;
     cursor: pointer;
-}
-
-/* NAV */
-.nav {
-    background-color: #fff;
-    padding: 1rem;
-    position: sticky;
-    top: 0;
-    left: 0;
-    box-shadow: 10px 0 10px #ebebeb;
-    z-index: 1;
-}
-.nav .inner-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    max-width: 1300px;
-    margin-inline: auto;    
-}
-.logo {
-    color: var(--primary-color);
-}
-.logo span {
-    color: var(--dark-color);
-}
-nav ul {
-    display: flex;
-    list-style: none;
-    align-items: center;
-    gap: 2.5rem;
-    font-size: 1rem;
-    font-weight: 700;
-}
-.navs-icon-container {
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-}
-/* links que vem de fontawesome sao svg */
-.navs-icon-container svg {
-    height: 1.5rem;
-    gap: 1rem;
-}
-.navs-icon-container .shopping-cart{
-    position: relative;    
-}
-.navs-icon-container .shopping-cart .products-count{
-    content: "";
-    position: absolute;
-    background-color: red;
-    width: 1rem;
-    height: 1rem;
-    bottom: -8px;
-    left: -8px;
-    border-radius: 50px;
-    color: #fff;
-    padding: 0.6rem;
-    font-size: 0.7rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-.search-input-container {
-    display: flex;
-    align-items: center;
-    gap: 0.25rem;
-    border-bottom: 2px solid var(--dark-color);
-    padding: 0.5rem;
-    margin-right: 1.5rem;
-}
-.search-input-container input {
-    border: none;
-    outline: none;
-    color: var(--dark-color);
-    font-size: 1rem;
-}
-.search-input-container svg {
-    height: 1rem;
-    color: #808080;
-}
-nav ul li:hover {
-    font-size: 1.2rem;
-    transform: translateY(-5px);
-    transition: 0.6s;
-}
-.menu-button {
-    display: none;
 }

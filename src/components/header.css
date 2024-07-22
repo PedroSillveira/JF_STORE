@@ -1,0 +1,35 @@
+header {
+    background-color: var(--primary-color);
+}
+header .inner-content {
+    max-width: 1600px;
+    margin-inline: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    padding: 4rem;
+    gap: 4rem;
+}
+header .left-side {
+    color: #fff;
+}
+header .left-side h2 {
+    font-size: 2.5rem;
+}
+header .left-side p {
+    padding-bottom: 2rem;
+    padding-top: 1rem;
+}
+.see-more-btn {
+    background-color: var(--dark-primary-color);
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s;
+    display: flex;
+    max-width: 130px;
+    justify-content: space-between;
+    align-items: center;
+}
+.see-more-btn:hover {
+    
+}
